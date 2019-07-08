@@ -1,0 +1,712 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>网络地址转换NAT · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="8_IP数据报的三种传输方式.html" />
+    
+    
+    <link rel="prev" href="6_因特网的路由选择协议.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    第一章: 概述
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../第一章/概述.html">
+            
+                <a href="../第一章/概述.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第二章: 物理层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../第二章/1_物理层的基本概念.html">
+            
+                <a href="../第二章/1_物理层的基本概念.html">
+            
+                    
+                    物理层的基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../第二章/2_数据通信的基础知识.html">
+            
+                <a href="../第二章/2_数据通信的基础知识.html">
+            
+                    
+                    数据通信的基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../第二章/3_物理层下面的传输媒体.html">
+            
+                <a href="../第二章/3_物理层下面的传输媒体.html">
+            
+                    
+                    物理层下面的传输媒体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../第二章/4_信道复用技术.html">
+            
+                <a href="../第二章/4_信道复用技术.html">
+            
+                    
+                    信道复用技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第三章: 数据链路层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章/1_基本概念.html">
+            
+                <a href="../第三章/1_基本概念.html">
+            
+                    
+                    基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章/2_数据链路层的三个基本问题.html">
+            
+                <a href="../第三章/2_数据链路层的三个基本问题.html">
+            
+                    
+                    数据链路层的三个基本问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章/3_局域网设备的演变.html">
+            
+                <a href="../第三章/3_局域网设备的演变.html">
+            
+                    
+                    局域网设备的演变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章/4_两种情况下的数据链路层.html">
+            
+                <a href="../第三章/4_两种情况下的数据链路层.html">
+            
+                    
+                    两种情况下的数据链路层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../第三章/5_VLAN虚拟局域网.html">
+            
+                <a href="../第三章/5_VLAN虚拟局域网.html">
+            
+                    
+                    VLAN虚拟局域网
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第四章: 网络层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="1_网络层提供的两种服务.html">
+            
+                <a href="1_网络层提供的两种服务.html">
+            
+                    
+                    网络层提供的两种服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="2_网络互联设备.html">
+            
+                <a href="2_网络互联设备.html">
+            
+                    
+                    网络互联设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="3_网际协议IP协议.html">
+            
+                <a href="3_网际协议IP协议.html">
+            
+                    
+                    网际协议IP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="4_地址解析协议arp协议.html">
+            
+                <a href="4_地址解析协议arp协议.html">
+            
+                    
+                    地址解析协议arp协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="5_网际控制报文协议ICMP.html">
+            
+                <a href="5_网际控制报文协议ICMP.html">
+            
+                    
+                    网际控制报文协议ICMP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="6_因特网的路由选择协议.html">
+            
+                <a href="6_因特网的路由选择协议.html">
+            
+                    
+                    因特网的路由选择协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.7" data-path="7_网络地址转换NAT.html">
+            
+                <a href="7_网络地址转换NAT.html">
+            
+                    
+                    网络地址转换NAT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="8_IP数据报的三种传输方式.html">
+            
+                <a href="8_IP数据报的三种传输方式.html">
+            
+                    
+                    IP数据报的三种传输方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="9_路由器及计算机通信过程.html">
+            
+                <a href="9_路由器及计算机通信过程.html">
+            
+                    
+                    路由器及计算机通信过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第五章: 传输层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../第五章/1_UDP协议.html">
+            
+                <a href="../第五章/1_UDP协议.html">
+            
+                    
+                    UDP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../第五章/2_TCP协议.html">
+            
+                <a href="../第五章/2_TCP协议.html">
+            
+                    
+                    TCP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../第五章/3_TCP的链接管理.html">
+            
+                <a href="../第五章/3_TCP的链接管理.html">
+            
+                    
+                    TCP的链接管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    第六章: 应用层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../第六章/1_域名系统DNS.html">
+            
+                <a href="../第六章/1_域名系统DNS.html">
+            
+                    
+                    域名系统DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../第六章/2_文件传输协议FTP.html">
+            
+                <a href="../第六章/2_文件传输协议FTP.html">
+            
+                    
+                    文件传输协议FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    第七章: 网络安全
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../第七章/1_网络安全引入.html">
+            
+                <a href="../第七章/1_网络安全引入.html">
+            
+                    
+                    网络安全引入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../第七章/2_加密技术.html">
+            
+                <a href="../第七章/2_加密技术.html">
+            
+                    
+                    加密技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >网络地址转换NAT</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x8F6C;&#x6362;nat">&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x8F6C;&#x6362;NAT</h3>
+<pre><code>&#x8DEF;&#x7531;&#x5668;&#x5BF9;&#x76EE;&#x7684;&#x5730;&#x5740;&#x662F;&#x79C1;&#x6709;IP&#x5730;&#x5740;&#x7684;&#x6570;&#x636E;&#x62A5;&#x4E00;&#x5F8B;&#x4E0D;&#x8FDB;&#x884C;&#x8F6C;&#x53D1;, &#x800C;&#x5927;&#x90E8;&#x5206;&#x7684;&#x5C40;&#x57DF;&#x7F51;&#x5185;&#x4F7F;&#x7528;&#x7684;&#x90FD;&#x662F;&#x79C1;&#x7F51;&#x5730;&#x5740;
+&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x8F6C;&#x6362;NAT&#xFF1A;&#x5728;&#x4E13;&#x7528;&#x7F51;&#x8FDE;&#x63A5;&#x5230;&#x56E0;&#x7279;&#x7F51;&#x7684;&#x8DEF;&#x7531;&#x5668;&#x4E0A;&#x5B89;&#x88C5;NAT&#x8F6F;&#x4EF6;&#xFF0C;&#x5B89;&#x88C5;&#x4E86;NAT&#x8F6F;&#x4EF6;&#x7684;&#x8DEF;&#x7531;&#x5668;&#x53EB;NAT&#x8DEF;&#x7531;&#x5668;&#xFF0C;
+                &#x5B83;&#x81F3;&#x5C11;&#x6709;&#x4E00;&#x4E2A;&#x6709;&#x6548;&#x7684;&#x5916;&#x90E8;&#x5168;&#x7403;IP&#x5730;&#x5740;(&#x516C;&#x7F51;&#x5730;&#x5740;), &#x5728;&#x8DEF;&#x7531;&#x5668;&#x4E2D;&#x4F1A;&#x7EF4;&#x62A4;&#x4E00;&#x4E2A;&#x8F6C;&#x53D1;&#x8868;, &#x5F53;&#x5185;
+                &#x7F51;&#x7684;&#x6570;&#x636E;&#x901A;&#x8FC7;&#x4E86;&#x8BE5;&#x8DEF;&#x7531;&#x5668;&#x65F6;, &#x5C31;&#x4F1A;&#x5C06;&#x6E90;IP&#x8F6C;&#x6362;&#x4E3A;&#x516C;&#x7F51;IP, &#x7136;&#x540E;&#x5C06;&#x7AEF;&#x53E3;&#x53F7;&#x4E5F;&#x8FDB;&#x884C;&#x8F6C;&#x6362;(&#x6BD4;&#x5982;
+                &#x4ECE;3000&#x8F6C;&#x4E3A;4000),&#x8FD9;&#x6837;&#x4E0B;&#x4E00;&#x6B21;&#x4ECE;&#x8BE5;&#x8DEF;&#x7531;&#x5668;&#x4E0A;&#x63A5;&#x6536;&#x6570;&#x636E;&#x65F6;,&#x5C31;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x8BE5;&#x8F6C;&#x53D1;&#x8868;, &#x627E;&#x5230;4000
+                &#x5BF9;&#x5E94;&#x7684;&#x4FE1;&#x606F;, &#x5C06;IP&#x548C;&#x7AEF;&#x53E3;&#x90FD;&#x8F6C;&#x6362;&#x4E3A;&#x8BE5;&#x4FE1;&#x606F;&#x5185;&#x7684;IP&#x548C;&#x7AEF;&#x53E3;, &#x518D;&#x901A;&#x8FC7;IP&#x627E;&#x5230;&#x5185;&#x7F51;&#x4E3B;&#x673A;&#x901A;&#x8FC7;&#x7AEF;&#x53E3;
+                &#x901A;&#x8FC7;&#x7AEF;&#x53E3;&#x627E;&#x5230;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="6_因特网的路由选择协议.html" class="navigation navigation-prev " aria-label="Previous page: 因特网的路由选择协议">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="8_IP数据报的三种传输方式.html" class="navigation navigation-next " aria-label="Next page: IP数据报的三种传输方式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"网络地址转换NAT","level":"1.5.7","depth":2,"next":{"title":"IP数据报的三种传输方式","level":"1.5.8","depth":2,"path":"第四章/8_IP数据报的三种传输方式.md","ref":"第四章/8_IP数据报的三种传输方式.md","articles":[]},"previous":{"title":"因特网的路由选择协议","level":"1.5.6","depth":2,"path":"第四章/6_因特网的路由选择协议.md","ref":"第四章/6_因特网的路由选择协议.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第四章/7_网络地址转换NAT.md","mtime":"2019-07-08T12:36:04.848Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-08T13:58:09.809Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
