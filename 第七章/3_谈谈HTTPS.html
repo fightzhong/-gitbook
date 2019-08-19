@@ -1,0 +1,772 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>谈谈HTTPS · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="2_加密技术.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    第一章: 概述
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../第一章/概述.html">
+            
+                <a href="../第一章/概述.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第二章: 物理层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../第二章/1_物理层的基本概念.html">
+            
+                <a href="../第二章/1_物理层的基本概念.html">
+            
+                    
+                    物理层的基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../第二章/2_数据通信的基础知识.html">
+            
+                <a href="../第二章/2_数据通信的基础知识.html">
+            
+                    
+                    数据通信的基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../第二章/3_物理层下面的传输媒体.html">
+            
+                <a href="../第二章/3_物理层下面的传输媒体.html">
+            
+                    
+                    物理层下面的传输媒体
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../第二章/4_信道复用技术.html">
+            
+                <a href="../第二章/4_信道复用技术.html">
+            
+                    
+                    信道复用技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第三章: 数据链路层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../第三章/1_基本概念.html">
+            
+                <a href="../第三章/1_基本概念.html">
+            
+                    
+                    基本概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../第三章/2_数据链路层的三个基本问题.html">
+            
+                <a href="../第三章/2_数据链路层的三个基本问题.html">
+            
+                    
+                    数据链路层的三个基本问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../第三章/3_局域网设备的演变.html">
+            
+                <a href="../第三章/3_局域网设备的演变.html">
+            
+                    
+                    局域网设备的演变
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../第三章/4_两种情况下的数据链路层.html">
+            
+                <a href="../第三章/4_两种情况下的数据链路层.html">
+            
+                    
+                    两种情况下的数据链路层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../第三章/5_VLAN虚拟局域网.html">
+            
+                <a href="../第三章/5_VLAN虚拟局域网.html">
+            
+                    
+                    VLAN虚拟局域网
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第四章: 网络层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../第四章/1_网络层提供的两种服务.html">
+            
+                <a href="../第四章/1_网络层提供的两种服务.html">
+            
+                    
+                    网络层提供的两种服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../第四章/2_网络互联设备.html">
+            
+                <a href="../第四章/2_网络互联设备.html">
+            
+                    
+                    网络互联设备
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../第四章/3_网际协议IP协议.html">
+            
+                <a href="../第四章/3_网际协议IP协议.html">
+            
+                    
+                    网际协议IP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../第四章/4_地址解析协议arp协议.html">
+            
+                <a href="../第四章/4_地址解析协议arp协议.html">
+            
+                    
+                    地址解析协议arp协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../第四章/5_网际控制报文协议ICMP.html">
+            
+                <a href="../第四章/5_网际控制报文协议ICMP.html">
+            
+                    
+                    网际控制报文协议ICMP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../第四章/6_因特网的路由选择协议.html">
+            
+                <a href="../第四章/6_因特网的路由选择协议.html">
+            
+                    
+                    因特网的路由选择协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../第四章/7_网络地址转换NAT.html">
+            
+                <a href="../第四章/7_网络地址转换NAT.html">
+            
+                    
+                    网络地址转换NAT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../第四章/8_IP数据报的三种传输方式.html">
+            
+                <a href="../第四章/8_IP数据报的三种传输方式.html">
+            
+                    
+                    IP数据报的三种传输方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../第四章/9_路由器及计算机通信过程.html">
+            
+                <a href="../第四章/9_路由器及计算机通信过程.html">
+            
+                    
+                    路由器及计算机通信过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第五章: 传输层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../第五章/1_UDP协议.html">
+            
+                <a href="../第五章/1_UDP协议.html">
+            
+                    
+                    UDP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../第五章/2_TCP协议.html">
+            
+                <a href="../第五章/2_TCP协议.html">
+            
+                    
+                    TCP协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../第五章/3_TCP的链接管理.html">
+            
+                <a href="../第五章/3_TCP的链接管理.html">
+            
+                    
+                    TCP的链接管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    第六章: 应用层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../第六章/1_域名系统DNS.html">
+            
+                <a href="../第六章/1_域名系统DNS.html">
+            
+                    
+                    域名系统DNS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../第六章/2_文件传输协议FTP.html">
+            
+                <a href="../第六章/2_文件传输协议FTP.html">
+            
+                    
+                    文件传输协议FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    第七章: 网络安全
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="1_网络安全引入.html">
+            
+                <a href="1_网络安全引入.html">
+            
+                    
+                    网络安全引入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="2_加密技术.html">
+            
+                <a href="2_加密技术.html">
+            
+                    
+                    加密技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8.3" data-path="3_谈谈HTTPS.html">
+            
+                <a href="3_谈谈HTTPS.html">
+            
+                    
+                    谈谈HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >谈谈HTTPS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <blockquote>
+<p>&#x5728;&#x8C08;&#x53CA;HTTPS&#x4E4B;&#x524D;&#x6211;&#x4EEC;&#x5148;&#x6765;&#x5BF9;&#x51E0;&#x4E2A;&#x6982;&#x5FF5;&#x518D;&#x8FDB;&#x884C;&#x4E00;&#x756A;&#x53D9;&#x8FF0;</p>
+</blockquote>
+<h2 id="&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;">&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;</h2>
+<pre><code>&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;: &#x52A0;&#x5BC6;&#x89E3;&#x5BC6;&#x90FD;&#x516C;&#x7528;&#x4E00;&#x5BF9;&#x5BC6;&#x94A5;, &#x4F18;&#x70B9;&#x662F;&#x52A0;&#x5BC6;&#x901F;&#x5EA6;&#x5FEB;, &#x4F46;&#x662F;&#x9700;&#x8981;&#x901A;&#x4FE1;&#x53CC;&#x53D1;&#x90FD;&#x5DF2;&#x7ECF;&#x62E5;&#x6709;&#x8BE5;&#x5BC6;&#x94A5;
+&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;: &#x5206;&#x4E3A;&#x516C;&#x94A5;&#x548C;&#x79C1;&#x94A5;, &#x53EF;&#x4EE5;&#x7528;&#x516C;&#x94A5;&#x52A0;&#x5BC6;&#x79C1;&#x94A5;&#x89E3;&#x5BC6;, &#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x79C1;&#x94A5;&#x52A0;&#x5BC6;&#x516C;&#x94A5;&#x89E3;&#x5BC6;, &#x7F3A;&#x70B9;&#x662F;&#x5BF9;&#x4E8E;&#x6587;&#x4EF6;&#x8F83;
+               &#x5927;&#x65F6;&#x52A0;&#x5BC6;&#x901F;&#x5EA6;&#x4F1A;&#x5F88;&#x6162;, &#x4F18;&#x70B9;&#x662F;&#x516C;&#x94A5;&#x53EF;&#x4EE5;&#x7ED9;&#x4EFB;&#x4F55;&#x4EBA;, &#x56E0;&#x4E3A;&#x53EA;&#x80FD;&#x7528;&#x79C1;&#x94A5;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;
+
+&#x4E24;&#x79CD;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x90FD;&#x5404;&#x6709;&#x4F18;&#x70B9;&#x548C;&#x7F3A;&#x70B9;, &#x5BF9;&#x4E8E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x6765;&#x8BF4;, &#x5FC5;&#x987B;&#x53EA;&#x8BA9;&#x901A;&#x4FE1;&#x53CC;&#x65B9;&#x624D;&#x62E5;&#x6709;&#x5BC6;&#x94A5;&#x624D;&#x80FD;&#x8FBE;&#x5230;&#x5B89;&#x5168;, &#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x5C06;
+&#x5BC6;&#x94A5;&#x4F20;&#x8F93;&#x7ED9;&#x5BF9;&#x65B9;&#x65F6;&#x4ECD;&#x7136;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x88AB;&#x4E2D;&#x95F4;&#x4EBA;&#x7A83;&#x53D6;, &#x4ECE;&#x800C;&#x5BFC;&#x81F4;&#x4E0D;&#x5B89;&#x5168;, &#x5BF9;&#x4E8E;&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x6765;&#x8BF4;, &#x867D;&#x7136;&#x5728;&#x5B89;&#x5168;&#x6027;&#x4E0A;&#x63D0;&#x9AD8;&#x4E86;
+&#x5F88;&#x591A;, &#x4F46;&#x662F;&#x52A0;&#x5BC6;&#x89E3;&#x5BC6;&#x7684;&#x65F6;&#x95F4;&#x8FC7;&#x957F;, &#x76EE;&#x524D;HTTPS&#x91C7;&#x7528;&#x7684;&#x662F;&#x4E24;&#x8005;&#x7ED3;&#x5408;&#x7684;&#x65B9;&#x5F0F;, &#x901A;&#x8FC7;&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x6765;&#x5C06;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x4F20;&#x8F93;
+&#x7ED9;&#x5BF9;&#x65B9;, &#x4E4B;&#x540E;&#x7684;&#x901A;&#x4FE1;&#x91C7;&#x7528;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x6765;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;&#x89E3;&#x5BC6;
+</code></pre><h2 id="&#x7C97;&#x7565;&#x7684;&#x8C08;&#x4E00;&#x4E0B;https&#x52A0;&#x5BC6;&#x89E3;&#x5BC6;&#x7684;&#x8FC7;&#x7A0B;">&#x7C97;&#x7565;&#x7684;&#x8C08;&#x4E00;&#x4E0B;HTTPS&#x52A0;&#x5BC6;&#x89E3;&#x5BC6;&#x7684;&#x8FC7;&#x7A0B;</h2>
+<pre><code>&#x5047;&#x8BBE;&#x73B0;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x9700;&#x8981;&#x5C06;&#x6570;&#x636E;&#x4F20;&#x8F93;&#x5230;&#x670D;&#x52A1;&#x5668;, &#x91C7;&#x7528;HTTPS&#x901A;&#x4FE1;, &#x9996;&#x5148;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x9700;&#x8981;&#x751F;&#x6210;&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x4E2D;&#x7684;&#x516C;&#x94A5;&#x548C;&#x79C1;&#x94A5;,
+&#x7136;&#x540E;&#x5C06;&#x516C;&#x94A5;&#x4F20;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;, &#x5BA2;&#x6237;&#x7AEF;&#x6536;&#x5230;&#x4E4B;&#x540E;&#x751F;&#x6210;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;, &#x5C06;&#x8FD9;&#x4E2A;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x7528;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x8FC7;&#x6765;&#x7684;&#x516C;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;, &#x7136;
+&#x540E;&#x5C06;&#x52A0;&#x5BC6;&#x540E;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9001;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x7531;&#x4E8E;&#x516C;&#x94A5;&#x52A0;&#x5BC6;&#x7684;&#x6570;&#x636E;&#x53EA;&#x80FD;&#x79C1;&#x94A5;&#x89E3;&#x5BC6;, &#x800C;&#x53EA;&#x6709;&#x670D;&#x52A1;&#x5668;&#x624D;&#x62E5;&#x6709;&#x79C1;&#x94A5;, &#x6240;&#x4EE5;&#x5F53;&#x670D;&#x52A1;&#x5668;
+&#x6536;&#x5230;&#x4E86;&#x8BE5;&#x6570;&#x636E;&#x540E;, &#x4F1A;&#x7528;&#x79C1;&#x94A5;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;, &#x7136;&#x540E;&#x83B7;&#x5F97;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7684;&#x5BC6;&#x94A5;, &#x4E4B;&#x540E;&#x5BA2;&#x6237;&#x7AEF;&#x548C;&#x670D;&#x52A1;&#x5668;&#x7684;&#x901A;&#x4FE1;&#x5C31;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;
+&#x8BE5;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x6765;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;&#x901A;&#x4FE1;&#x4E86;
+</code></pre><h2 id="&#x5B58;&#x5728;&#x7684;&#x95EE;&#x9898;">&#x5B58;&#x5728;&#x7684;&#x95EE;&#x9898;</h2>
+<pre><code>&#x5982;&#x679C;&#x4E2D;&#x95F4;&#x4EBA;&#x5728;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x516C;&#x94A5;X&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x65F6;&#x5019;&#x8FDB;&#x884C;&#x52AB;&#x6301;, &#x4E2D;&#x95F4;&#x4EBA;&#x83B7;&#x5F97;&#x670D;&#x52A1;&#x5668;&#x7684;&#x516C;&#x94A5;X, &#x540C;&#x65F6;&#x4E2D;&#x95F4;&#x4EBA;&#x751F;&#x6210;&#x81EA;&#x5DF1;&#x7684;&#x975E;
+&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7684;&#x516C;&#x94A5;A&#x548C;&#x79C1;&#x94A5;B,&#x4F2A;&#x9020;&#x670D;&#x52A1;&#x5668;&#x5C06;&#x8FD9;&#x4E2A;&#x751F;&#x6210;&#x7684;&#x516C;&#x94A5;A&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;, &#x7136;&#x540E;&#x5BA2;&#x6237;&#x7AEF;&#x7528;&#x8FD9;&#x4E2A;&#x516C;&#x94A5;A&#x5BF9;&#x81EA;&#x5DF1;&#x751F;&#x6210;&#x7684;&#x5BF9;
+&#x79F0;&#x52A0;&#x5BC6;&#x7684;&#x5BC6;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;, &#x7136;&#x540E;&#x53D1;&#x9001;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x6B64;&#x65F6;&#x4E2D;&#x95F4;&#x4EBA;&#x5F97;&#x5230;&#x8FD9;&#x4E2A;&#x4FE1;&#x606F;, &#x7528;&#x81EA;&#x5DF1;&#x7684;&#x79C1;&#x94A5;B&#x8FDB;&#x884C;&#x89E3;&#x5BC6;, &#x5F97;&#x5230;&#x5BA2;&#x6237;&#x7AEF;&#x7684;
+&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x5BC6;&#x94A5;, &#x7136;&#x540E;&#x518D;&#x7528;&#x670D;&#x52A1;&#x5668;&#x7684;&#x516C;&#x94A5;A&#x5BF9;&#x8BE5;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7684;&#x5BC6;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;&#x540E;&#x53D1;&#x56DE;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x6B64;&#x65F6;&#x5BA2;&#x6237;&#x7AEF;, &#x4E2D;&#x95F4;&#x4EBA;, &#x670D;
+&#x52A1;&#x5668;&#x5747;&#x62E5;&#x6709;&#x8BE5;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7684;&#x5BC6;&#x94A5;, &#x6240;&#x4EE5;&#x4E2D;&#x95F4;&#x4EBA;&#x4E5F;&#x80FD;&#x591F;&#x7A83;&#x53D6;&#x4FE1;&#x606F;
+
+&#x603B;&#x7ED3;&#x4E00;&#x4E0B;, &#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5BA2;&#x6237;&#x7AEF;&#x6CA1;&#x529E;&#x6CD5;&#x8BC6;&#x522B;&#x5F97;&#x5230;&#x7684;&#x516C;&#x94A5;&#x662F;&#x5426;&#x662F;&#x670D;&#x52A1;&#x5668;&#x7684;&#x516C;&#x94A5;&#x800C;&#x5F15;&#x8D77;&#x7684;&#x95EE;&#x9898;
+</code></pre><h2 id="ca&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;">CA&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;</h2>
+<pre><code>CA&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;, &#x4E3A;&#x4E86;&#x80FD;&#x591F;&#x4F7F;&#x5F97;&#x516C;&#x94A5;&#x80FD;&#x88AB;&#x8BC6;&#x522B;&#x51FA;&#x6765;&#x662F;&#x5426;&#x662F;&#x670D;&#x52A1;&#x5668;&#x672C;&#x8EAB;&#x7684;, &#x670D;&#x52A1;&#x5668;&#x5F00;&#x53D1;&#x8005;&#x9700;&#x8981;&#x5411;CA&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x7533;&#x8BF7;
+&#x8BA4;&#x8BC1;, &#x63D0;&#x4EA4;&#x81EA;&#x5DF1;&#x7684;&#x516C;&#x94A5;&#x4EE5;&#x53CA;&#x4FE1;&#x606F;, &#x5F53;&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x8BA4;&#x8BC1;&#x901A;&#x8FC7;&#x540E;, &#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x4F1A;&#x5148;&#x751F;&#x6210;&#x4E00;&#x4E2A;SSL&#x8BC1;&#x4E66;, &#x8BC1;&#x4E66;&#x7684;&#x5185;&#x5BB9;
+&#x5305;&#x62EC;&#x8BC1;&#x4E66;&#x9881;&#x53D1;&#x673A;&#x6784;CA, &#x8BC1;&#x4E66;&#x7684;&#x6709;&#x6548;&#x671F;, &#x670D;&#x52A1;&#x5668;&#x65B9;&#x7684;&#x516C;&#x94A5;, &#x8BC1;&#x4E66;&#x6240;&#x6709;&#x8005;, &#x7B7E;&#x540D;, &#x5176;&#x4E2D;&#x8FD9;&#x4E2A;&#x7B7E;&#x540D;&#x662F;&#x8BC1;&#x4E66;&#x9881;&#x53D1;&#x673A;&#x6784;&#x5229;&#x7528;
+hash&#x5355;&#x5411;&#x6563;&#x5217;&#x51FD;&#x6570;&#x5BF9;&#x6574;&#x4E2A;&#x8BC1;&#x4E66;&#x7684;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x54C8;&#x5E0C;&#x8FD0;&#x7B97;&#x751F;&#x6210;&#x7684;(&#x4E5F;&#x53EB;&#x6458;&#x8981;), &#x5E76;&#x4E14;&#x7528;&#x8BC1;&#x4E66;&#x9881;&#x53D1;&#x673A;&#x6784;&#x7684;&#x79C1;&#x94A5;(&#x8BC1;&#x4E66;&#x9881;&#x53D1;&#x673A;&#x6784;
+&#x62E5;&#x6709;&#x4E00;&#x5957;&#x81EA;&#x5DF1;&#x7684;&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x7684;&#x516C;&#x94A5;&#x548C;&#x79C1;&#x94A5;)&#x5BF9;&#x8BE5;&#x8BC1;&#x4E66;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;(&#x6240;&#x4EE5;&#x53EA;&#x80FD;&#x7531;&#x8BC1;&#x4E66;&#x9881;&#x53D1;&#x673A;&#x6784;&#x7684;&#x516C;&#x94A5;&#x624D;&#x80FD;&#x5BF9;&#x8BE5;&#x6458;&#x8981;
+&#x8FDB;&#x884C;&#x89E3;&#x5BC6;)
+
+&#x90A3;&#x4E48;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x5982;&#x4F55;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x8FC7;&#x6765;&#x7684;&#x516C;&#x94A5;&#x8FDB;&#x884C;&#x5224;&#x65AD;&#x7684;&#x5462;? CA&#x8BC1;&#x4E66;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x4F1A;&#x5728;OS&#x88AB;&#x5B89;&#x88C5;&#x65F6;&#x5C31;&#x5185;&#x7F6E;&#x5728;OS&#x4E2D;, &#x5E76;&#x4E14;&#x90FD;
+&#x662F;&#x6743;&#x5A01;&#x7684;&#x673A;&#x6784;, OS&#x5FC5;&#x987B;&#x5BF9;&#x5176;&#x4FE1;&#x4EFB;, &#x5185;&#x7F6E;&#x4E8E;OS&#x4E2D;&#x7684;CA&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x4E2D;&#x5B58;&#x5728;&#x5404;&#x4E2A;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x7684;&#x516C;&#x94A5;, &#x6240;&#x4EE5;&#x670D;&#x52A1;&#x5668;&#x83B7;&#x5F97;&#x4E86;&#x8BC1;&#x4E66;
+&#x540E;&#x53EA;&#x9700;&#x8981;&#x5C06;&#x8BC1;&#x4E66;&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&#x5373;&#x53EF;, &#x5BA2;&#x6237;&#x7AEF;&#x6536;&#x5230;&#x8BE5;&#x8BC1;&#x4E66;&#x4F1A;&#x5148;&#x5224;&#x65AD;&#x662F;&#x54EA;&#x4E2A;&#x8BA4;&#x8BC1;&#x673A;&#x6784;&#x7684;, &#x7136;&#x540E;&#x53D6;&#x51FA;&#x8BE5;CA&#x7684;&#x516C;&#x94A5;, &#x5BF9;&#x8BC1;
+&#x4E66;&#x7684;&#x7B7E;&#x540D;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;, &#x7136;&#x540E;&#x518D;&#x5229;&#x7528;&#x5355;&#x5411;&#x6563;&#x5217;&#x51FD;&#x6570;&#x5BF9;&#x8BC1;&#x4E66;&#x7684;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x8FD0;&#x7B97;, &#x5224;&#x65AD;&#x5F97;&#x5230;&#x7684;&#x503C;&#x662F;&#x5426;&#x548C;&#x7B7E;&#x540D;&#x7684;&#x503C;&#x662F;&#x4E00;&#x6837;&#x7684;, &#x5982;
+&#x679C;&#x4E00;&#x6837;&#x90A3;&#x4E48;&#x5C31;&#x8BF4;&#x660E;&#x8BC1;&#x4E66;&#x6CA1;&#x6709;&#x88AB;&#x7BE1;&#x6539;, &#x4ECE;&#x800C;&#x786E;&#x5B9A;&#x4E86;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x7684;&#x516C;&#x94A5;&#x7684;&#x5B89;&#x5168;&#x6027;
+</code></pre><h2 id="https--http--&#x52A0;&#x5BC6;--&#x8BA4;&#x8BC1;--&#x5B8C;&#x6574;&#x6027;&#x4FDD;&#x62A4;--http--ssl&#x5916;&#x58F3;">HTTPS = HTTP + &#x52A0;&#x5BC6; + &#x8BA4;&#x8BC1; + &#x5B8C;&#x6574;&#x6027;&#x4FDD;&#x62A4; = HTTP + SSL&#x5916;&#x58F3;</h2>
+<pre><code>&#x7EFC;&#x4E0A;&#x6240;&#x8FF0;, &#x6211;&#x4EEC;&#x5BF9;HTTP&#x534F;&#x8BAE;&#x7684;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x52A0;&#x5BC6;, &#x800C;&#x5BF9;&#x4E8E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x4EA7;&#x751F;&#x7684;&#x5BC6;&#x94A5;&#x5219;&#x7528;&#x975E;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;
+&#x7684;&#x516C;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;, &#x79C1;&#x94A5;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;, &#x4E3A;&#x4E86;&#x80FD;&#x591F;&#x786E;&#x5B9A;&#x516C;&#x94A5;&#x7684;&#x5B89;&#x5168;&#x6027;, &#x5373;&#x4E3A;&#x4E86;&#x786E;&#x5B9A;&#x516C;&#x94A5;&#x786E;&#x5B9E;&#x662F;&#x7531;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x53D1;&#x9001;&#x8FC7;&#x6765;&#x7684;, &#x5C31;
+&#x9700;&#x8981;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x5411;CA&#x7533;&#x8BF7;&#x4E00;&#x4E2A;&#x8BC1;&#x4E66;, &#x901A;&#x8FC7;&#x8BC1;&#x4E66;&#x7684;&#x6458;&#x8981;(&#x7B7E;&#x540D;)&#x6765;&#x4FDD;&#x8BC1;&#x516C;&#x94A5;&#x7684;&#x5B8C;&#x6574;&#x6027;&#x4EE5;&#x53CA;&#x5BA2;&#x6237;&#x7AEF;&#x5BF9;&#x516C;&#x94A5;&#x7684;&#x8BA4;&#x8BC1;
+</code></pre><h2 id="https&#x6293;&#x5305;&#x5206;&#x6790;">HTTPS&#x6293;&#x5305;&#x5206;&#x6790;</h2>
+<pre><code>&#x4E0B;&#x9762;&#x5206;&#x6790;HTTPS&#x5177;&#x4F53;&#x7684;&#x901A;&#x4FE1;&#x6D41;&#x7A0B;, &#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;:
+1: &#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x9001;Client Hello&#x6570;&#x636E;&#x5305;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x544A;&#x8BC9;&#x670D;&#x52A1;&#x5668;&#x81EA;&#x5DF1;&#x652F;&#x6301;&#x7684;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x4EE5;&#x53CA;SSL&#x7684;&#x7248;&#x672C;, &#x670D;&#x52A1;&#x5668;&#x6536;&#x5230;&#x540E;
+    &#x4F1A;&#x56DE;&#x5E94;&#x4E00;&#x4E2A;ack&#x786E;&#x8BA4;&#x5305;
+2: &#x670D;&#x52A1;&#x5668;&#x4ECE;&#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x6765;&#x7684;Client Hello&#x5305;&#x4E2D;&#x9009;&#x62E9;&#x4E00;&#x4E2A;SSL&#x7248;&#x672C;&#x548C;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;, &#x7136;&#x540E;&#x901A;&#x8FC7;&#x53D1;&#x9001;Server Hello&#x5305;&#x7ED9;&#x5BA2;
+   &#x6237;&#x7AEF;&#x544A;&#x77E5;&#x81EA;&#x5DF1;&#x7684;&#x9009;&#x62E9;, &#x4E4B;&#x540E;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x4E00;&#x4E2A;Certificate&#x5305;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;, &#x8BE5;&#x5305;&#x7684;&#x4F5C;&#x7528;&#x662F;&#x5C06;&#x670D;&#x52A1;&#x5668;&#x7684;CA&#x8BA4;&#x8BC1;&#x8BC1;&#x4E66;
+   &#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;, &#x4E4B;&#x540E;&#x53D1;&#x9001;Server Hello Done&#x5305;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&#x8868;&#x793A;&#x7B2C;&#x4E00;&#x9636;&#x6BB5;&#x7684;&#x4FE1;&#x606F;&#x4EA4;&#x6362;&#x7ED3;&#x675F;&#x53EF;, &#x5BA2;&#x6237;&#x7AEF;&#x6536;&#x5230;&#x8BE5;&#x8BC1;
+   &#x4E66;&#x540E;&#x4F1A;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x8BC1;&#x4E66;&#x7684;&#x5B89;&#x5168;&#x6027;, &#x5E76;&#x4E14;&#x4ECE;&#x4E2D;&#x83B7;&#x5F97;&#x670D;&#x52A1;&#x5668;&#x7684;&#x516C;&#x94A5;
+3: &#x5BA2;&#x6237;&#x7AEF;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x968F;&#x673A;&#x6570;(&#x7528;&#x4E8E;&#x751F;&#x6210;&#x5BF9;&#x79F0;&#x52A0;&#x5BC6;&#x7B97;&#x6CD5;&#x7684;&#x5BC6;&#x94A5;), &#x5C06;&#x8BE5;&#x968F;&#x673A;&#x6570;&#x7528;&#x4E4B;&#x524D;&#x5BA2;&#x6237;&#x7AEF;&#x6536;&#x5230;&#x7684;&#x516C;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;, &#x52A0;&#x5BC6;
+    &#x540E;&#x518D;&#x5C06;&#x8BE5;&#x6570;&#x636E;&#x53D1;&#x9001;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x5373;&#x53D1;&#x9001;Client Key Exchange&#x5305;, Change Cipher Spec&#x7684;&#x610F;&#x601D;&#x662F;&#x5BA2;&#x6237;&#x7AEF;&#x544A;&#x77E5;
+    &#x670D;&#x52A1;&#x5668;&#x540E;&#x9762;&#x8BB2;&#x4F1A;&#x7528;&#x8BE5;&#x968F;&#x673A;&#x6570;&#x751F;&#x6210;&#x7684;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x8FDB;&#x884C;&#x52A0;&#x5BC6;&#x6570;&#x636E;
+4: &#x670D;&#x52A1;&#x5668;&#x6536;&#x5230;&#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x6765;&#x7684;&#x968F;&#x673A;&#x6570;&#x540E;, &#x7528;&#x81EA;&#x5DF1;&#x7684;&#x79C1;&#x94A5;&#x8FDB;&#x884C;&#x89E3;&#x5BC6;, &#x83B7;&#x5F97;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x7B97;&#x6CD5;&#x7684;&#x5BC6;&#x94A5;, &#x7136;&#x540E;&#x540C;&#x6837;&#x5229;&#x7528;Change
+   Cipher Spec&#x544A;&#x8BC9;&#x5BA2;&#x6237;&#x7AEF;&#x4E4B;&#x540E;&#x5C06;&#x7528;&#x8FD9;&#x4E2A;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x52A0;&#x5BC6;
+
+&#x81F3;&#x6B64;&#x4E3A;&#x6B62;, &#x901A;&#x8FC7;CA&#x8BC1;&#x4E66;&#x6765;&#x5B9E;&#x73B0;&#x4E86;&#x670D;&#x52A1;&#x5668;&#x7684;&#x516C;&#x94A5;&#x5B89;&#x5168;&#x7684;&#x5230;&#x8FBE;&#x5BA2;&#x6237;&#x7AEF;, &#x5E76;&#x4E14;&#x5BA2;&#x6237;&#x7AEF;&#x5B89;&#x5168;&#x7684;&#x5229;&#x7528;&#x8BE5;&#x516C;&#x94A5;&#x52A0;&#x5BC6;&#x5BF9;&#x79F0;&#x5BC6;&#x94A5;&#x5E76;
+&#x53D1;&#x9001;&#x7ED9;&#x670D;&#x52A1;&#x5668;, &#x53CC;&#x65B9;&#x4FE1;&#x606F;&#x534F;&#x5546;&#x5B8C;&#x6BD5;, HTTPS&#x5BC6;&#x94A5;&#x4EA4;&#x6362;&#x5B8C;&#x6BD5;, &#x4E4B;&#x540E;&#x7684;&#x7B2C;5&#x6B65;&#x5219;&#x662F;&#x5229;&#x7528;HTTPS&#x901A;&#x4FE1;&#x7684;&#x8FC7;&#x7A0B;, &#x6570;&#x636E;&#x8FDB;&#x884C;&#x4E86;
+&#x52A0;&#x5BC6;&#x540E;&#x4F20;&#x9001;
+</code></pre><p><img src="HTTPS&#x6293;&#x5305;&#x5206;&#x6790;.png"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2_加密技术.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 加密技术">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"谈谈HTTPS","level":"1.8.3","depth":2,"previous":{"title":"加密技术","level":"1.8.2","depth":2,"path":"第七章/2_加密技术.md","ref":"第七章/2_加密技术.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第七章/3_谈谈HTTPS.md","mtime":"2019-08-19T06:43:26.468Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-08-19T06:43:50.215Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
